@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.DragAndDropOptions.to;
 import static com.codeborne.selenide.Selenide.*;
 
-public class SelenideActions {
+public class SelenideActionsTests {
 
     @BeforeAll
     static void onSettings() {
