@@ -16,11 +16,11 @@ public class GithubSolutions {
     }
 
     @Test
-    void solutionsHoverEnterprize(){
+    void solutionsHoverEnterprizeTest(){
         open("/");
         $(".HeaderMenu-nav").$(byText("Solutions")).hover();
         $("ul.list-style-none").shouldBe(visible).$(byText("Enterprises")).hover().click();
         $("h1").$(byText("The AI-powered" + "developer platform"));
-        sleep(5000);
+
     }
 }
